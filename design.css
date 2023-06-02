@@ -115,11 +115,6 @@ header ul li a:hover{
 	width: 60%;
 }
 
-.about .abtimg{
-	width: 35%;
-	margin-left: 5%;
-}
-
 .about .abtText h1{
 	margin-bottom: 10px;
 }
@@ -136,6 +131,11 @@ header ul li a:hover{
 .about .abtText p{
 	line-height: 1.5;
 	text-align: justify;
+}
+
+.about .abtimg{
+	width: 35%;
+	margin-left: 5%;
 }
 
 .about .abtimg img{
