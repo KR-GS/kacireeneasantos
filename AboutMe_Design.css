@@ -111,6 +111,11 @@ header ul li a:hover{
 	color: white;
 }
 
+.about .abtimg{
+	width: 35%;
+	margin-left: 5%;
+}
+
 .about .abtText h1{
 	margin-bottom: 10px;
 }
