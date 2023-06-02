@@ -99,8 +99,6 @@ header ul li a:hover{
 	font-weight: 550;
 }
 
-
-
 .about{
 	position: relative;
 	width: 100%;
@@ -130,14 +128,10 @@ header ul li a:hover{
 	width: 800px;
 	line-height: 1.5;
 	text-align: justify;
-	margin-left: auto;
 }
 
 .about .abtimg{
 	width: 500px;
-	margin-left: 50;
-	margin-right: auto;
-	float: right;
 }
 
 .about .abtimg img{
