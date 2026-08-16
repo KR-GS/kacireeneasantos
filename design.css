@@ -109,7 +109,6 @@ header ul li a:hover{
 	align-items: center;
 	justify-content: center;
 	color: white;
-	
 }
 
 .abtContent{
@@ -122,7 +121,7 @@ header ul li a:hover{
 }
 
 .about .abtText{
-	width: 85%;
+	width: 100%;
 	justify-content: center;
 }
 
@@ -145,15 +144,16 @@ header ul li a:hover{
 }
 
 .about .abtimg{
-	width: 55%;
-	justify-content: center;
+	width: 75%;
 }
 
 .about .abtimg img{
 	width: 100%;
 	border-radius: 50%;
 	border: 5px solid #080e1c;
-	margin-left: auto;
+	margin-bottom: 5%;
+
+	margin-left: 20%;
 }
 
 .skills{
@@ -241,7 +241,7 @@ header ul li a:hover{
 	margin-bottom: 10px;
 }
 
-.sample .line3{
+.line3{
 	height: 1.5px;
 	background-color:#080e1c;
 	width: 100%;
@@ -267,8 +267,6 @@ header ul li a:hover{
 	width: 100%;
 	border-radius: 15px;
 	margin-bottom: 10px;
-
-	
 }
 
 .graphic, .code, .research{
