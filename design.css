@@ -190,27 +190,15 @@ header ul li a:hover{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	justify-content: center;
-}
-
-.languages{
-	display: grid;
 	align-items: center;
-	justify-content: center;
-	grid-template-columns: repeat(8, auto);
 }
 
-.languages img{
-	height: 100px;
-}
-
-.tools{
+.languages, .tools{
 	display: grid;
-	align-items: center;
-	justify-content: center;
-	grid-template-columns: repeat(6, auto);
+	grid-template-columns: repeat(10, auto);
 }
 
-.tools img{
+.languages img, .tools img{
 	height: 100px;
 }
 
@@ -261,6 +249,19 @@ header ul li a:hover{
 	align-items: center;
 	justify-content: center;
 	grid-template-columns: repeat(4, auto);
+}
+
+.works h5{
+	font-weight: normal;
+	font-style: italic;
+	padding-top: 1%;
+	font-size: 9pt;
+}
+
+.works h4{
+	font-style: italic;
+	padding-top: 1%;
+	font-size: 11pt;
 }
 
 .works img{
@@ -330,22 +331,19 @@ footer section a{
   .works {grid-template-columns: repeat(1, auto);}
   .abtContent {grid-template-columns: repeat(1, auto);}
   .options {display: none}
-  .languages {grid-template-columns: repeat(3, auto);}
-  .tools {grid-template-columns: repeat(3, auto);}
+  .languages, .tools {grid-template-columns: repeat(3, auto);}
 }
 
 @media (min-width: 751px) and (max-width: 1300px) {
   .works {grid-template-columns: repeat(2, auto);}
   .abtContent {grid-template-columns: repeat(1, auto);}
   .options {display: show}
-  .languages {grid-template-columns: repeat(6, auto);}
-  .tools {grid-template-columns: repeat(6, auto);}
+  .languages, .tools {grid-template-columns: repeat(6, auto);}
 }
 
 @media (min-width: 1301px)  and (max-width: 1920px) {
   .works {grid-template-columns: repeat(4, auto);}
   .abtContent {grid-template-columns: repeat(2, auto);}
   .options {display: show}
-  .languages {grid-template-columns: repeat(8, auto);}
-  .tools {grid-template-columns: repeat(6, auto);}
+  .languages, .tools {grid-template-columns: repeat(10, auto);}
 }
