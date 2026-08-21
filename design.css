@@ -66,6 +66,7 @@ header ul li a{
 header ul li a:hover{
 	background: white;
 	color: black;
+	transition:background-color 1s, color 1s;
 }
 
 .start{
@@ -251,6 +252,8 @@ header ul li a:hover{
 	grid-template-columns: repeat(4, auto);
 }
 
+
+
 .works h5{
 	font-weight: normal;
 	font-style: italic;
@@ -284,6 +287,22 @@ header ul li a:hover{
 .graphic p, .code p, .research p{
 	font-size: 13px;
 	padding-top: 5px;
+}
+
+.code a{
+	text-decoration: none;
+	color: white;
+	background-color: none;
+}
+
+.code a:hover h3{
+	text-decoration: underline;
+	transition: text-decoration 1s;
+}
+
+.code:hover{
+	background-color:#0b2157;
+	transition:background-color 1s;
 }
 
 footer{
